@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,400&family=Roboto:wght@100;300;400;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>CodeClube Convert Money</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>CodeClube Convert Money</h1>
+        </header>
+
+        <main>
+            <label for="">
+                Converter <b>de</b>
+                <select id="">
+                    <option value=""> R$ Real brasileiro</option>       
+                </select>
+            </label>
+
+            <label for="">
+                Converter <b>para</b>
+                <select name="" id="selecionarMoeda">
+                    <option value="USD Dolar americano"> USD Dolar americano</option>
+                    <option value="Є Euro"> Є Euro</option>
+                    <option value="Bitcoin"> Bitcoin</option>
+                </select>
+            </label>
+
+            <label for="">
+                Valor
+                <input id="inputReais" placeholder="R$ 10.000,00">
+            </label>
+
+            <button id="botaoConverter" type="botao">Converter</button>
+
+            <section>
+                    <div class="imagemBotoes">
+                        <img src="./img/brasil 2.png" alt="bandeira-brasil">
+                        <p class="moeda">Real</p>
+                        <p class="valorMoeda" id="valorReais">R$ 10.000,00</p>
+                    </div>
+
+                    <img class="imagemSeta"   src="./img/Vector.png" alt="seta">
+
+                    <div class="imagemBotoes">
+                        <img src="./img/estados-unidos.png" alt="bandeira-conversao" id="Bandeira">
+                        <p class="moeda" id="MoedaDolar">Dolar americano</p>
+                        <p class="valorMoeda" id="valorDoelares">U$S 10.000,00</p>
+                    </div>
+            </section>
+
+
+        </main>
+
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
