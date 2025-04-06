@@ -16,14 +16,16 @@ A simple web app for converting between Brazilian Real (R$) and US Dollar (USD).
 - JavaScript (ES6)
 
 ## Usage Example 🚀
-```javascript
-// Sample conversion function (simplified)
-function convertCurrency(amount, rate) {
-  return (amount * rate).toFixed(2);
-}
+Selecione a moeda de origem (Real brasileiro)
 
-const brlAmount = 20;
-const exchangeRate = 0.171; // Example rate (BRL to USD)
-const usdAmount = convertCurrency(brlAmount, exchangeRate);
+Selecione a moeda de destino (Dólar americano)
 
-console.log(`R$${brlAmount} = $${usdAmount}`);
+Insira o valor a ser convertido (ex: 20)
+
+Clique no botão "Converter"
+
+Veja o resultado:
+
+Real: R$ 20,00
+
+Dólar americano: $3.42
