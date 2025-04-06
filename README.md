@@ -1,32 +1,29 @@
-CodeClube Convert Money
-Descrição
-CodeClube Convert Money é um conversor de moedas simples que permite converter valores entre o Real brasileiro (R$) e o Dólar americano (USD).
+# 💰 CodeClube Currency Converter
 
-Funcionalidades
-Conversão de R$ (Real brasileiro) para USD (Dólar americano)
+![Currency Converter Screenshot](./money.jpg)
 
-Exibição clara dos valores convertidos
+A simple web app for converting between Brazilian Real (R$) and US Dollar (USD).
 
-Exemplo de Uso
-Selecione a moeda de origem (Real brasileiro)
+## Features ✨
+- Real-time currency conversion
+- Clean, intuitive interface
+- Supports BRL to USD conversion
+- Displays both original and converted amounts
 
-Selecione a moeda de destino (Dólar americano)
+## Tech Stack 🛠️
+- HTML5
+- CSS3
+- JavaScript (ES6)
 
-Insira o valor a ser convertido (ex: 20)
+## Usage Example 🚀
+```javascript
+// Sample conversion function (simplified)
+function convertCurrency(amount, rate) {
+  return (amount * rate).toFixed(2);
+}
 
-Clique no botão "Converter"
+const brlAmount = 20;
+const exchangeRate = 0.171; // Example rate (BRL to USD)
+const usdAmount = convertCurrency(brlAmount, exchangeRate);
 
-Veja o resultado:
-
-Real: R$ 20,00
-
-Dólar americano: $3.42
-
-Requisitos
-Navegador web moderno
-
-Instalação
-Não requer instalação, basta acessar a aplicação web.
-
-Contribuição
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+console.log(`R$${brlAmount} = $${usdAmount}`);
