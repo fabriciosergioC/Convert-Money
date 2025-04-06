@@ -1,7 +1,6 @@
 # 💰 CodeClube Currency Converter
 
-![Currency Converter Screenshot]
-<img src="imagem/money.jpg" alt="Texto alternativo" width="400">
+<img src="img/money.jpg" alt="Texto alternativo" width="400">
 
 A simple web app for converting between Brazilian Real (R$) and US Dollar (USD).
 
